@@ -1,0 +1,205 @@
+<class name = "fmq_client" codec = "fmq_msg" title = "a FILEMQ client"
+  short = "The fmq_client class implements a generic FILEMQ client." >
+This is the FILEMQ/1.0 client protocol handler
+<include filename = "license.xml" />
+<include filename = "fmq_client_fsm.xml" />
+
+<declare>
+//  There's no point making these configurable
+#define CREDIT_SLICE    1000000
+#define CREDIT_MINIMUM  (CREDIT_SLICE * 4) + 1
+</declare>
+
+<!-- Client and server contexts -->
+<!-- self is the client, server is each outgoing connection -->
+<self>
+<context>
+zlist_t *subs;              //  Subscriptions
+sub_t *sub;                 //  Subscription we want to send
+</context>
+<construct>
+self->subs = zlist_new ();
+</construct>
+<destruct>
+//  Destroy subscriptions
+while (zlist_size (self->subs)) {
+    sub_t *sub = (sub_t *) zlist_pop (self->subs);
+    sub_destroy (&sub);
+}
+zlist_destroy (&self->subs);
+</destruct>
+</self>
+
+<server>
+<context>
+size_t credit;              //  Current credit pending
+zfile_t *file;           //  File we're writing to
+</context>
+<construct>
+</construct>
+<destruct>
+</destruct>
+</server>
+
+<!-- Embedded class for subscriptions -->
+<include filename = "fmq_client_sub.xml" />
+
+<!--<action name = "try security mechanism">
+char *login = zconfig_resolve (self->config, "security/plain/login", "guest");
+char *password = zconfig_resolve (self->config, "security/plain/password", "");
+zframe_t *frame = fmq_sasl_plain_encode (login, password);
+fmq_msg_set_mechanism (server->request, "PLAIN");
+fmq_msg_set_response  (server->request, frame);
+</action>-->
+
+<action name = "connected to server">
+</action>
+
+<action name = "get first subscription">
+self->sub = (sub_t *) zlist_first (self->subs);
+if (self->sub)
+    server->next_event = ok_event;
+else
+    server->next_event = finished_event;
+</action>
+
+<action name = "get next subscription">
+self->sub = (sub_t *) zlist_next (self->subs);
+if (self->sub)
+    server->next_event = ok_event;
+else
+    server->next_event = finished_event;
+</action>
+
+<action name = "format icanhaz command">
+fmq_msg_set_path (server->request, self->sub->path);
+//  If client app wants full resync, send cache to server
+if (atoi (zconfig_resolve (self->config, "client/resync", "0")) == 1) {
+    zhash_t *cache = sub_cache (self->sub);
+    fmq_msg_options_insert (server->request, "RESYNC", "1");
+    fmq_msg_set_cache (server->request, &cache);
+}
+</action>
+
+<action name = "refill credit as needed">
+//  If credit has fallen too low, send more credit
+size_t credit_to_send = 0;
+while (server->credit < CREDIT_MINIMUM) {
+    credit_to_send += CREDIT_SLICE;
+    server->credit += CREDIT_SLICE;
+}
+if (credit_to_send) {
+    fmq_msg_set_credit (server->request, credit_to_send);
+    server->next_event = send_credit_event;
+}
+</action>
+
+<action name = "process the patch">
+char *inbox = zconfig_resolve (self->config, "client/inbox", ".inbox");
+const char *filename = fmq_msg_filename (server->reply);
+const char *filename_orig = filename;
+
+//  Filenames from server must start with slash
+assert (*filename == '/');
+
+
+// Strip the subscription path from the filename
+sub_t *subscr = (sub_t *) zlist_first(self->subs);
+while(subscr) {
+    if(!strncmp(filename, subscr->path, strlen(subscr->path))) {
+        filename += strlen(subscr->path);
+        break;
+    }
+}
+if('/' == *filename) filename++;
+
+if (fmq_msg_operation (server->reply) == FMQ_MSG_FILE_CREATE) {
+    if (server->file == NULL) {
+        server->file = zfile_new (inbox, filename);
+        if (zfile_output (server->file)) {
+            //  File not writeable, skip patch
+            zfile_destroy (&server->file);
+            return;
+        }
+    }
+    //  Try to write, ignore errors in this version
+    zchunk_t *chunk = fmq_msg_chunk (server->reply);
+    if (zchunk_size (chunk) > 0) {
+        zfile_write (server->file, chunk, fmq_msg_offset (server->reply));
+        server->credit -= zchunk_size (chunk);
+    }
+    else {
+        //  Zero-sized chunk means end of file, so report back to caller
+        zstr_sendm (self->pipe, "DELIVER");
+        zstr_sendm (self->pipe, filename);
+        zstr_sendf (self->pipe, "%s", filename_orig);
+        zfile_destroy (&server->file);
+    }
+}
+else
+if (fmq_msg_operation (server->reply) == FMQ_MSG_FILE_DELETE) {
+    // No need to print this
+    //zclock_log ("I: delete %s/%s", inbox, filename);
+    zfile_t *file = zfile_new (inbox, filename);
+    zfile_remove (file);
+    zfile_destroy (&file);
+
+    //  Report file deletion back to caller
+    zstr_sendm (self->pipe, "DELETED");
+    zstr_sendm (self->pipe, filename);
+    zstr_sendf (self->pipe, "%s/%s", inbox, filename_orig);
+}
+</action>
+
+<action name = "log access denied">
+puts ("W: server denied us access, retrying...");
+</action>
+
+<action name = "log invalid message">
+puts ("E: server claims we sent an invalid message");
+</action>
+
+<action name = "log protocol error">
+puts ("E: protocol error");
+</action>
+
+<!-- Must happen before any connects -->
+<method name = "subscribe">
+<argument name = "path" type = "string" />
+//  Store subscription along with any previous ones
+//  Check we don't already have a subscription for this path
+self->sub = (sub_t *) zlist_first (self->subs);
+while (self->sub) {
+    if (streq (path, self->sub->path))
+        return;
+    self->sub = (sub_t *) zlist_next (self->subs);
+}
+//  Subscription path must start with '/'
+//  We'll do better error handling later
+assert (*path == '/');
+
+//  New subscription, store it for later replay
+char *inbox = zconfig_resolve (self->config, "client/inbox", ".inbox");
+self->sub = sub_new (self, inbox, path);
+zlist_append (self->subs, self->sub);
+</method>
+
+<method name = "set inbox">
+<argument name = "path" type = "string" />
+zconfig_put (self->config, "client/inbox", path);
+</method>
+
+<method name = "set resync">
+<argument name = "enabled" type = "number" />
+//  Request resynchronization from server
+zconfig_put (self->config, "client/resync", enabled? "1" :"0");
+</method>
+
+<selftest config = "client_test.cfg">
+<init>
+fmq_client_connect (self, "tcp://localhost:6001");
+zclock_sleep (1000);
+</init>
+</selftest>
+
+</class>

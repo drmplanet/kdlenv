@@ -1,0 +1,9 @@
+src/arm/sysv.lo: \
+ /root/koreader/base/thirdparty/libffi/build/arm-linux-gnueabi/libffi-prefix/src/libffi/src/arm/sysv.S \
+ fficonfig.h include/ffi.h include/ffitarget.h
+
+fficonfig.h:
+
+include/ffi.h:
+
+include/ffitarget.h:

@@ -1,0 +1,5 @@
+libzmq_la-norm_engine.lo: \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/norm_engine.cpp \
+ platform.hpp
+
+platform.hpp:

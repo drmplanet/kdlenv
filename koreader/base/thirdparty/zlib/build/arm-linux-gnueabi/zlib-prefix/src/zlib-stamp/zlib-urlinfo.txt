@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://zlib.net/zlib-1.2.8.tar.gz'
+tag='MD5=44d667c142d7cda120332623eab69f40'

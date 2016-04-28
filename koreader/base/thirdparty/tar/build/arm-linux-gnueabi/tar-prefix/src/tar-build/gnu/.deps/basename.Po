@@ -1,0 +1,68 @@
+basename.o: \
+ /root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/basename.c \
+ ../config.h \
+ /root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/dirname.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stdbool.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stddef.h \
+ /root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/dosname.h \
+ string.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/string.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/features.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdc-predef.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/cdefs.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/wordsize.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs-soft.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/xlocale.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/string.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/string2.h \
+ stdlib.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdlib.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/string3.h \
+ /root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/xalloc.h \
+ /root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/xalloc-oversized.h \
+ /root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/xstrndup.h
+
+../config.h:
+
+/root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/dirname.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stdbool.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stddef.h:
+
+/root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/dosname.h:
+
+string.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/string.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/features.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdc-predef.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/cdefs.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/wordsize.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs-soft.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/xlocale.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/string.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/string2.h:
+
+stdlib.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdlib.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/string3.h:
+
+/root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/xalloc.h:
+
+/root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/xalloc-oversized.h:
+
+/root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/xstrndup.h:

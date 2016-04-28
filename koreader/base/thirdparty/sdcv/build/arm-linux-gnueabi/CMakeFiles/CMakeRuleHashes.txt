@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+dd54a84ee1f0772ab94b7917f0363994 CMakeFiles/sdcv
+378c328299840d499bad42cb9222b1b8 CMakeFiles/sdcv-complete
+fe915aecc956d3f93930a05d2d2392ec sdcv-prefix/src/sdcv-stamp/sdcv-build
+dab0b1ab62cf2c4aa0593b6447c69d83 sdcv-prefix/src/sdcv-stamp/sdcv-configure
+9dc7aec105952d0f58bd9fcf6cd1d1c4 sdcv-prefix/src/sdcv-stamp/sdcv-download
+e33c254004114760de361c5da8427e91 sdcv-prefix/src/sdcv-stamp/sdcv-install
+97e3ad2d0e7864fbf4ddf0bae046c43c sdcv-prefix/src/sdcv-stamp/sdcv-mkdir
+cf18242485b114e3cf2928c7520d70f6 sdcv-prefix/src/sdcv-stamp/sdcv-patch
+b72f3bda5767017b3eef67d9357ab40a sdcv-prefix/src/sdcv-stamp/sdcv-update

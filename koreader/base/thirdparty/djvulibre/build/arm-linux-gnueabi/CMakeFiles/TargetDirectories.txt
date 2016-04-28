@@ -1,0 +1,1 @@
+/root/koreader/base/thirdparty/djvulibre/build/arm-linux-gnueabi/CMakeFiles/djvulibre.dir

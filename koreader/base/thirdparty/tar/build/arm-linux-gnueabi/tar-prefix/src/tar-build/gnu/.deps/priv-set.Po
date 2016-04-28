@@ -1,0 +1,8 @@
+priv-set.o: \
+ /root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/priv-set.c \
+ ../config.h \
+ /root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/priv-set.h
+
+../config.h:
+
+/root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/priv-set.h:

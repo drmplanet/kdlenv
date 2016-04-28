@@ -1,0 +1,632 @@
+dictziplib.o: dictziplib.cpp ../../config.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/cassert \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/assert.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/features.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdc-predef.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/cdefs.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/wordsize.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs-soft.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/cstdio \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++config.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/os_defines.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/cpu_defines.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdio.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stddef.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/types.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/typesizes.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/libio.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/_G_config.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/wchar.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stdarg.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdio_lim.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sys_errlist.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdio.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/cstdlib \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdlib.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/waitflags.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/waitstatus.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/endian.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/endian.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/byteswap.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/byteswap-16.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/xlocale.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/types.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/time.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/select.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/select.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigset.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/time.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/sysmacros.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/pthreadtypes.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/alloca.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdlib-bsearch.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdlib-float.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/cstring \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/string.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/unistd.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/posix_opt.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/environments.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/confname.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/getopt.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include-fixed/limits.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include-fixed/syslimits.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/limits.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/posix1_lim.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/local_lim.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/linux/limits.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/posix2_lim.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/xopen_lim.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/fcntl.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/fcntl.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/fcntl-linux.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/uio.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stat.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/stat.h \
+ dictziplib.hpp /usr/arm-linux-gnueabi/include/c++/4.7.4/ctime \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/timex.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/string \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stringfwd.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/char_traits.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_algobase.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/functexcept.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/exception_defines.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/cpp_type_traits.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/ext/type_traits.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/ext/numeric_traits.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_pair.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/move.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/concept_check.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator_base_types.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator_base_funcs.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/debug/debug.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/postypes.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/cwchar \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/wchar.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/allocator.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++allocator.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/ext/new_allocator.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/new \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/exception \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/atomic_lockfree_defines.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/localefwd.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++locale.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/clocale \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/locale.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/locale.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/iosfwd \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/cctype \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/ctype.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/ostream_insert.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/cxxabi_forced.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_function.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/backward/binders.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/range_access.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/basic_string.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/ext/atomicity.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/gthr.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/gthr-default.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/pthread.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sched.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sched.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/setjmp.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/atomic_word.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/basic_string.tcc \
+ /root/koreader/base/thirdparty/zlib/build/arm-linux-gnueabi/zlib-prefix/src/zlib/zlib.h \
+ /root/koreader/base/thirdparty/zlib/build/arm-linux-gnueabi/zlib-prefix/src/zlib/zconf.h \
+ mapfile.hpp \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/mman.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/mman.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/mman-linux.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/galloca.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtypes.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/lib/glib-2.0/include/glibconfig.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmacros.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/float.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gversionmacros.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/garray.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gasyncqueue.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gthread.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gatomic.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gerror.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gquark.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gutils.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gbacktrace.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/signal.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/signum.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/siginfo.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigaction.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigcontext.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm/sigcontext.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigstack.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/ucontext.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigthread.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gbase64.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gbitlock.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gbookmarkfile.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gbytes.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gcharset.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gchecksum.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gconvert.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gdataset.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gdate.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gdatetime.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtimezone.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gdir.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/dirent.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/dirent.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/genviron.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gfileutils.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/ggettext.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/ghash.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/glist.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmem.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gnode.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/ghmac.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gchecksum.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/ghook.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/ghostutils.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/giochannel.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmain.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gpoll.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gslist.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gstring.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gunicode.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gkeyfile.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmappedfile.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmarkup.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmessages.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/goption.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gpattern.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gprimes.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gqsort.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gqueue.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/grand.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gregex.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gscanner.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gsequence.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gshell.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gslice.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gspawn.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gstrfuncs.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gstringchunk.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtestutils.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gthreadpool.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtimer.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtrashstack.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtree.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gurifuncs.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gvarianttype.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gvariant.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gversion.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/gallocator.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/gcache.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/gcompletion.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/gmain.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/grel.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/gthread.h \
+ /root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/glib-autocleanups.h
+
+../../config.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/cassert:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/assert.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/features.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdc-predef.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/cdefs.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/wordsize.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs-soft.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/cstdio:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++config.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/os_defines.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/cpu_defines.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdio.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stddef.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/types.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/typesizes.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/libio.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/_G_config.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/wchar.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stdarg.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdio_lim.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sys_errlist.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdio.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/cstdlib:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdlib.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/waitflags.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/waitstatus.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/endian.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/endian.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/byteswap.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/byteswap-16.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/xlocale.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/types.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/time.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/select.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/select.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigset.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/time.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/sysmacros.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/pthreadtypes.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/alloca.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdlib-bsearch.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdlib-float.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/cstring:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/string.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/unistd.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/posix_opt.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/environments.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/confname.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/getopt.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include-fixed/limits.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include-fixed/syslimits.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/limits.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/posix1_lim.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/local_lim.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/linux/limits.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/posix2_lim.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/xopen_lim.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/fcntl.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/fcntl.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/fcntl-linux.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/uio.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stat.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/stat.h:
+
+dictziplib.hpp:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/ctime:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/timex.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/string:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stringfwd.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/char_traits.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_algobase.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/functexcept.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/exception_defines.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/cpp_type_traits.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/ext/type_traits.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/ext/numeric_traits.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_pair.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/move.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/concept_check.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator_base_types.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator_base_funcs.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/debug/debug.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/postypes.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/cwchar:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/wchar.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/allocator.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++allocator.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/ext/new_allocator.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/new:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/exception:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/atomic_lockfree_defines.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/localefwd.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++locale.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/clocale:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/locale.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/locale.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/iosfwd:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/cctype:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/ctype.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/ostream_insert.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/cxxabi_forced.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_function.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/backward/binders.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/range_access.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/basic_string.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/ext/atomicity.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/gthr.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/gthr-default.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/pthread.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sched.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sched.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/setjmp.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/atomic_word.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/basic_string.tcc:
+
+/root/koreader/base/thirdparty/zlib/build/arm-linux-gnueabi/zlib-prefix/src/zlib/zlib.h:
+
+/root/koreader/base/thirdparty/zlib/build/arm-linux-gnueabi/zlib-prefix/src/zlib/zconf.h:
+
+mapfile.hpp:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/mman.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/mman.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/mman-linux.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/galloca.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtypes.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/lib/glib-2.0/include/glibconfig.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmacros.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/float.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gversionmacros.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/garray.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gasyncqueue.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gthread.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gatomic.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gerror.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gquark.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gutils.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gbacktrace.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/signal.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/signum.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/siginfo.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigaction.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigcontext.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm/sigcontext.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigstack.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/ucontext.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigthread.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gbase64.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gbitlock.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gbookmarkfile.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gbytes.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gcharset.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gchecksum.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gconvert.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gdataset.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gdate.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gdatetime.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtimezone.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gdir.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/dirent.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/dirent.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/genviron.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gfileutils.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/ggettext.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/ghash.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/glist.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmem.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gnode.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/ghmac.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gchecksum.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/ghook.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/ghostutils.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/giochannel.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmain.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gpoll.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gslist.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gstring.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gunicode.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gkeyfile.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmappedfile.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmarkup.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gmessages.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/goption.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gpattern.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gprimes.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gqsort.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gqueue.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/grand.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gregex.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gscanner.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gsequence.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gshell.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gslice.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gspawn.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gstrfuncs.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gstringchunk.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtestutils.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gthreadpool.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtimer.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtrashstack.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gtree.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gurifuncs.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gvarianttype.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gvariant.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/gversion.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/gallocator.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/gcache.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/gcompletion.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/gmain.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/grel.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/deprecated/gthread.h:
+
+/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/include/glib-2.0/glib/glib-autocleanups.h:

@@ -1,0 +1,1 @@
+/root/koreader/base/thirdparty/czmq/build/arm-linux-gnueabi/CMakeFiles/czmq.dir

@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+873f238161440ec286711e5adde749eb CMakeFiles/libffi
+7b780f763fa340f2e3eb4e3a95d29c58 CMakeFiles/libffi-complete
+575dd78d6795a9680e9c13a89d09cd77 libffi-prefix/src/libffi-stamp/libffi-build
+c2ffdc7b7f2f065ef6a644b37dbc6ad0 libffi-prefix/src/libffi-stamp/libffi-configure
+f99b4615767b4941080f5c447bf0f2e6 libffi-prefix/src/libffi-stamp/libffi-download
+6b38e2b33d4241c7163c3bb003a02e26 libffi-prefix/src/libffi-stamp/libffi-install
+64c76f3389af5095e643283d9850a522 libffi-prefix/src/libffi-stamp/libffi-mkdir
+9de5f56ac51080bf56b4ebe9a02308d2 libffi-prefix/src/libffi-stamp/libffi-patch
+12e316c44432bd887c21387aec7b1f04 libffi-prefix/src/libffi-stamp/libffi-update

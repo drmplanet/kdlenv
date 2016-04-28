@@ -1,0 +1,11 @@
+prefix=/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: GThread
+Description: Thread support for GLib
+Requires: glib-2.0
+Version: 2.48.0
+Libs: -L${libdir} -lgthread-2.0 -pthread
+Cflags: -pthread

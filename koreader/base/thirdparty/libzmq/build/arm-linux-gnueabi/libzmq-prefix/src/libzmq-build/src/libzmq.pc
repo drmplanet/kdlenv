@@ -1,0 +1,10 @@
+prefix=/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq-build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.1.0
+Libs: -L${libdir} -lzmq
+Cflags: -I${includedir}

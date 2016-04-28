@@ -1,0 +1,12 @@
+prefix=/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: GObject
+Description: GLib Type, Object, Parameter and Signal Library
+Requires: glib-2.0
+Version: 2.48.0
+Libs: -L${libdir} -lgobject-2.0
+Libs.private: -L/root/koreader/base/thirdparty/libffi/build/arm-linux-gnueabi/libffi-prefix/src/libffi-build/.libs -lffi
+Cflags:

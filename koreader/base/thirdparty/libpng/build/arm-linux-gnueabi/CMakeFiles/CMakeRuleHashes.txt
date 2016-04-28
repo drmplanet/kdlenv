@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+2e9e9ad7c8754839c17d2f4e7614fbcb CMakeFiles/libpng
+0600c04e707f85086203152f0fd5f964 CMakeFiles/libpng-complete
+988aa5dbb7dc8c7c13fd5a669122d310 libpng-prefix/src/libpng-stamp/libpng-build
+2c63259502c1deee47f046d0659e0216 libpng-prefix/src/libpng-stamp/libpng-configure
+fb16cf77feffca178f0df52db990a808 libpng-prefix/src/libpng-stamp/libpng-download
+8c69855854f2e24de52abed651fd5493 libpng-prefix/src/libpng-stamp/libpng-install
+fd18b787b526a0c6d987d6bd722d54ba libpng-prefix/src/libpng-stamp/libpng-mkdir
+99dabcf2eb494613946519e7e53a7764 libpng-prefix/src/libpng-stamp/libpng-patch
+1a1829e2489ae357362f6072c83d39c0 libpng-prefix/src/libpng-stamp/libpng-update

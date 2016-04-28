@@ -1,0 +1,1 @@
+/root/koreader/base/thirdparty/zsync/build/arm-linux-gnueabi/CMakeFiles/zsync.dir

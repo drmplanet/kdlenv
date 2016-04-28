@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+0f0803e38aefd1557e74d3d460846e06 CMakeFiles/lua-serialize
+99b4f32189f72ee0001bc5f5598e4939 CMakeFiles/lua-serialize-complete
+a59071d066103786aa206ecc7ef0f388 lua-serialize-prefix/src/lua-serialize-stamp/lua-serialize-build
+852ff9dd6841bd7f86eefeaa8211de85 lua-serialize-prefix/src/lua-serialize-stamp/lua-serialize-configure
+aef168ef7f246d6e57c9ebeb9a60fba8 lua-serialize-prefix/src/lua-serialize-stamp/lua-serialize-download
+aa6ecf370b37639b5cc8975d1873b8b7 lua-serialize-prefix/src/lua-serialize-stamp/lua-serialize-install
+13e97a8805469120c1585cd0001ed515 lua-serialize-prefix/src/lua-serialize-stamp/lua-serialize-mkdir
+eec94e1ee62c4edbdbacc2dd9ee18968 lua-serialize-prefix/src/lua-serialize-stamp/lua-serialize-patch
+dc060e6b23029f926fb0176a8bb02f66 lua-serialize-prefix/src/lua-serialize-stamp/lua-serialize-update

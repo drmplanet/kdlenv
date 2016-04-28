@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../crengine/crengine/include/xxhash.h
+stddef.h
+-
+
+/root/koreader/base/thirdparty/kpvcrlib/crengine/crengine/src/xxhash.c
+stdlib.h
+-
+string.h
+-
+xxhash.h
+/root/koreader/base/thirdparty/kpvcrlib/crengine/crengine/src/xxhash.h
+stdint.h
+-
+

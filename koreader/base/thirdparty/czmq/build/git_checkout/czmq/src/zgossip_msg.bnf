@@ -1,0 +1,28 @@
+The following ABNF grammar defines the ZeroMQ Gossip Protocol:
+
+        C:HELLO [ *S:PUBLISH ]
+        C:PUBLISH / S:PUBLISH / C:PING S:PONG
+
+    ;         Client says hello to server
+    hello           = signature %d1
+    signature       = %xAA %xA0             ; two octets
+
+    ;         Client or server announces a new tuple
+    publish         = signature %d2 key value
+    key             = string                ; The key
+    value           = string                ; The value
+
+    ;         Client signals liveness
+    ping            = signature %d3
+
+    ;         Server responds to ping
+    pong            = signature %d4
+
+    ;         Server rejects command as invalid
+    invalid         = signature %d5
+
+    ; Strings are always length + text contents
+    string          = number-1 *VCHAR
+
+    ; Numbers are unsigned integers in network byte order
+    number-1        = 1OCTET

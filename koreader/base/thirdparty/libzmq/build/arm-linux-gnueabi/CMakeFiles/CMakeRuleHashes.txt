@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+df28353651ad3f3d6ab386c70168f9cc CMakeFiles/libzmq
+28a354d68e29bfe70d9dfa08e0440529 CMakeFiles/libzmq-complete
+fb63c10efb0b0c346c15f13c9fdfe66f libzmq-prefix/src/libzmq-stamp/libzmq-build
+0139f16bc29db82509936945a2bfaaf5 libzmq-prefix/src/libzmq-stamp/libzmq-configure
+6751ec4423eb269c09ab37254a18a031 libzmq-prefix/src/libzmq-stamp/libzmq-download
+83748c80d62dc8a0fdda59bbff10f086 libzmq-prefix/src/libzmq-stamp/libzmq-install
+3a71827a2db675346f927bc46bdae6e4 libzmq-prefix/src/libzmq-stamp/libzmq-mkdir
+5557e33a99c6dc4622f58d7b1a2c1fdd libzmq-prefix/src/libzmq-stamp/libzmq-patch
+c2285ddbd95e7c3287c3f73c31e095e1 libzmq-prefix/src/libzmq-stamp/libzmq-update

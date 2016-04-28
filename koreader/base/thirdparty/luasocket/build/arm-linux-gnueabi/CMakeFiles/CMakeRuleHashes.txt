@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+216a9f41bef820006ae655a253b677d3 CMakeFiles/luasocket
+083cdd6bad465f4ad8908adc81b33f89 CMakeFiles/luasocket-complete
+f5b811ee53809b98a3053d93264a9907 luasocket-prefix/src/luasocket-stamp/luasocket-build
+62263fa9fe3a6462f97d5fceaa58cf7a luasocket-prefix/src/luasocket-stamp/luasocket-configure
+c6587934fb137ef692793ba1ba12dcc8 luasocket-prefix/src/luasocket-stamp/luasocket-download
+3913fca4783f87a846e8c88df682771c luasocket-prefix/src/luasocket-stamp/luasocket-install
+af7810ddfd489b6495986eccb09f36b5 luasocket-prefix/src/luasocket-stamp/luasocket-mkdir
+783140ef80d35f3426e3f53c6d765e61 luasocket-prefix/src/luasocket-stamp/luasocket-patch
+e1925a6706b52ac4c1842c686f948580 luasocket-prefix/src/luasocket-stamp/luasocket-update

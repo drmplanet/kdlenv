@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+dfbd9225e8b79ab2d4fc600989c3bf65 CMakeFiles/lua-Spore
+737ff27761dcdd88f0c64c4d640382c2 CMakeFiles/lua-Spore-complete
+ad4d2b4dba355433e434f92ea163c1eb lua-Spore-prefix/src/lua-Spore-stamp/lua-Spore-build
+103a0f7e8e1d6113f653f4b92f96f520 lua-Spore-prefix/src/lua-Spore-stamp/lua-Spore-configure
+051164ac6bd9b30f31e9356fb4886932 lua-Spore-prefix/src/lua-Spore-stamp/lua-Spore-download
+0aba8842cdbf29c9eb83bd8a88a67c56 lua-Spore-prefix/src/lua-Spore-stamp/lua-Spore-install
+da0dec169d1ab415f871ed3ce4ef1f7d lua-Spore-prefix/src/lua-Spore-stamp/lua-Spore-mkdir
+bac6a09df2deaa33c5ec51ae926eed46 lua-Spore-prefix/src/lua-Spore-stamp/lua-Spore-patch
+740899e6a5a1bb9d155b40612e147201 lua-Spore-prefix/src/lua-Spore-stamp/lua-Spore-update

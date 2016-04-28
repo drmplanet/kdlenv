@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+7b3113b76ce44f935958a69ba0959d08 CMakeFiles/luasec
+7a62e7ddf3b91b1cbc7887b56b0bbda2 CMakeFiles/luasec-complete
+2bfe04b39a5432e709e5448e27b09aa7 luasec-prefix/src/luasec-stamp/luasec-build
+6b5704e634431890959f5fa425b4cda8 luasec-prefix/src/luasec-stamp/luasec-configure
+402967134b532de520e3bb9768c834ac luasec-prefix/src/luasec-stamp/luasec-download
+c8e1d63b119fcdc6b4f0e03ae0e1c804 luasec-prefix/src/luasec-stamp/luasec-install
+b0cb849cd12053611bd2b59922ed63ae luasec-prefix/src/luasec-stamp/luasec-mkdir
+4d99ef36f1ddb8f4697bec44c57ba855 luasec-prefix/src/luasec-stamp/luasec-patch
+882509c5181109c8034430df1aeaf0bb luasec-prefix/src/luasec-stamp/luasec-update

@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+c7c7bd8a6927a09634fcb6561ea02053 CMakeFiles/libjpeg-turbo
+4ea178e6f0b9b70cf11ad84a4287813b CMakeFiles/libjpeg-turbo-complete
+68556eab2d09c70e5e3c9bc497393446 libjpeg-turbo-prefix/src/libjpeg-turbo-stamp/libjpeg-turbo-build
+f29d964827899fd2aaaa077b9a4c44b7 libjpeg-turbo-prefix/src/libjpeg-turbo-stamp/libjpeg-turbo-configure
+d3dc2523c3d95b5ecdb8a7bb4684ee18 libjpeg-turbo-prefix/src/libjpeg-turbo-stamp/libjpeg-turbo-download
+1f51afd4b489dfe708e46e7d8cf74b84 libjpeg-turbo-prefix/src/libjpeg-turbo-stamp/libjpeg-turbo-install
+d192a7456c12d1a869b1b576c68cf266 libjpeg-turbo-prefix/src/libjpeg-turbo-stamp/libjpeg-turbo-mkdir
+57246431c247d70b8ab1b63822b0eafe libjpeg-turbo-prefix/src/libjpeg-turbo-stamp/libjpeg-turbo-patch
+13aa06e4d0b7f4e1f516926e88424952 libjpeg-turbo-prefix/src/libjpeg-turbo-stamp/libjpeg-turbo-update

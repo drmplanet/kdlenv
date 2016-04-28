@@ -1,0 +1,11 @@
+prefix=/root/koreader/base/thirdparty/libpng/build/arm-linux-gnueabi/libpng-prefix/src/libpng-build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.21
+Libs: -L${libdir} -lpng16
+Libs.private: -lm -lz -lm 
+Cflags: -I${includedir}

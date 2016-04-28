@@ -1,0 +1,511 @@
+libzmq_la-own.lo: \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/own.cpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/own.hpp \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/set \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_tree.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_algobase.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++config.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/os_defines.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/features.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdc-predef.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/cdefs.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/wordsize.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs-soft.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/cpu_defines.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/functexcept.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/exception_defines.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/cpp_type_traits.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/ext/type_traits.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/ext/numeric_traits.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_pair.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/move.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/concept_check.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator_base_types.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator_base_funcs.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/debug/debug.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/allocator.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++allocator.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/ext/new_allocator.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/new \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/exception \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/atomic_lockfree_defines.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_function.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/backward/binders.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_set.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_multiset.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/range_access.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/algorithm \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/utility \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_relops.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_algo.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/cstdlib \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdlib.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stddef.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/waitflags.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/waitstatus.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/endian.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/endian.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/byteswap.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/types.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/typesizes.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/byteswap-16.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/xlocale.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/types.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/time.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/select.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/select.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigset.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/time.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/sysmacros.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/pthreadtypes.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/alloca.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdlib-bsearch.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdlib-float.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/algorithmfwd.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_heap.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_tempbuf.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_construct.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/ext/alloc_traits.h \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/object.hpp \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/string \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stringfwd.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/char_traits.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/postypes.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/cwchar \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/wchar.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdio.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stdarg.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/wchar.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/localefwd.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++locale.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/clocale \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/locale.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/locale.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/iosfwd \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/cctype \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/ctype.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/ostream_insert.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/cxxabi_forced.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/basic_string.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/ext/atomicity.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/gthr.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/gthr-default.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/pthread.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sched.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sched.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/timex.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/setjmp.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/atomic_word.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/basic_string.tcc \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/stdint.hpp \
+ platform.hpp /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stdint.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdint.h \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/options.hpp \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/vector \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_uninitialized.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_vector.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_bvector.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/vector.tcc \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/tcp_address.hpp \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/socket.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/uio.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/uio.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/socket.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/socket_type.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sockaddr.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm/socket.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm-generic/socket.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm/sockios.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm-generic/sockios.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/netinet/in.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/in.h \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/../include/zmq.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/errno.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/errno.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/linux/errno.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm/errno.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm-generic/errno.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm-generic/errno-base.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/libio.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/_G_config.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdio_lim.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sys_errlist.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdio.h \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/atomic_counter.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/err.hpp \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/assert.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/string.h \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/likely.hpp \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/netdb.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/rpc/netdb.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/siginfo.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/netdb.h \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/io_thread.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/poller.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/epoll.hpp \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/epoll.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/epoll.h \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/fd.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/thread.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/poller_base.hpp \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/map \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_map.h \
+ /usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_multimap.h \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/clock.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/i_poll_events.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/mailbox.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/signaler.hpp \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/unistd.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/posix_opt.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/environments.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/confname.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/getopt.h \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/config.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/command.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/ypipe.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/atomic_ptr.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/yqueue.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/ypipe_base.hpp \
+ /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/mutex.hpp
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/own.hpp:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/set:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_tree.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_algobase.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++config.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/os_defines.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/features.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdc-predef.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/cdefs.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/wordsize.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/gnu/stubs-soft.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/cpu_defines.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/functexcept.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/exception_defines.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/cpp_type_traits.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/ext/type_traits.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/ext/numeric_traits.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_pair.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/move.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/concept_check.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator_base_types.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator_base_funcs.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_iterator.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/debug/debug.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/allocator.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++allocator.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/ext/new_allocator.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/new:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/exception:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/atomic_lockfree_defines.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_function.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/backward/binders.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_set.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_multiset.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/range_access.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/algorithm:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/utility:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_relops.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_algo.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/cstdlib:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdlib.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stddef.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/waitflags.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/waitstatus.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/endian.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/endian.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/byteswap.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/types.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/typesizes.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/byteswap-16.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/xlocale.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/types.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/time.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/select.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/select.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sigset.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/time.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/sysmacros.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/pthreadtypes.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/alloca.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdlib-bsearch.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdlib-float.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/algorithmfwd.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_heap.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_tempbuf.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_construct.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/ext/alloc_traits.h:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/object.hpp:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/string:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stringfwd.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/char_traits.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/postypes.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/cwchar:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/wchar.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdio.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stdarg.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/wchar.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/localefwd.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/c++locale.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/clocale:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/locale.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/locale.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/iosfwd:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/cctype:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/ctype.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/ostream_insert.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/cxxabi_forced.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/basic_string.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/ext/atomicity.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/gthr.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/gthr-default.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/pthread.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sched.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sched.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/timex.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/setjmp.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/arm-linux-gnueabi/sf/bits/atomic_word.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/basic_string.tcc:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/stdint.hpp:
+
+platform.hpp:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stdint.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/stdint.h:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/options.hpp:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/vector:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_uninitialized.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_vector.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_bvector.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/vector.tcc:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/tcp_address.hpp:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/socket.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/uio.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/uio.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/socket.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/socket_type.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sockaddr.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm/socket.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm-generic/socket.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm/sockios.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm-generic/sockios.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/netinet/in.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/in.h:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/../include/zmq.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/errno.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/errno.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/linux/errno.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm/errno.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm-generic/errno.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/asm-generic/errno-base.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/libio.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/_G_config.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdio_lim.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/sys_errlist.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/stdio.h:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/atomic_counter.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/err.hpp:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/assert.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/string.h:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/likely.hpp:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/netdb.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/rpc/netdb.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/siginfo.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/netdb.h:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/io_thread.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/poller.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/epoll.hpp:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/sys/epoll.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/epoll.h:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/fd.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/thread.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/poller_base.hpp:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/map:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_map.h:
+
+/usr/arm-linux-gnueabi/include/c++/4.7.4/bits/stl_multimap.h:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/clock.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/i_poll_events.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/mailbox.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/signaler.hpp:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/unistd.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/posix_opt.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/environments.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/bits/confname.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/../../../../arm-linux-gnueabi/include/getopt.h:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/config.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/command.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/ypipe.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/atomic_ptr.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/yqueue.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/ypipe_base.hpp:
+
+/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/mutex.hpp:

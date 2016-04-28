@@ -1,0 +1,13 @@
+arm/filter_neon.lo: \
+ /root/koreader/base/thirdparty/libpng/build/arm-linux-gnueabi/libpng-prefix/src/libpng/arm/filter_neon.S \
+ /root/koreader/base/thirdparty/libpng/build/arm-linux-gnueabi/libpng-prefix/src/libpng/arm/../pngpriv.h \
+ config.h pnglibconf.h \
+ /root/koreader/base/thirdparty/libpng/build/arm-linux-gnueabi/libpng-prefix/src/libpng/arm/../png.h
+
+/root/koreader/base/thirdparty/libpng/build/arm-linux-gnueabi/libpng-prefix/src/libpng/arm/../pngpriv.h:
+
+config.h:
+
+pnglibconf.h:
+
+/root/koreader/base/thirdparty/libpng/build/arm-linux-gnueabi/libpng-prefix/src/libpng/arm/../png.h:

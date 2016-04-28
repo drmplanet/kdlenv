@@ -1,0 +1,11 @@
+xasprintf.o: \
+ /root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/xasprintf.c \
+ ../config.h \
+ /root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/xvasprintf.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stdarg.h
+
+../config.h:
+
+/root/koreader/base/thirdparty/tar/build/arm-linux-gnueabi/tar-prefix/src/tar/gnu/xvasprintf.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/4.7/include/stdarg.h:

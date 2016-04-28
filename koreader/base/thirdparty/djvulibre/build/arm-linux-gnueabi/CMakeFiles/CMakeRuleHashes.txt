@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+4a89db91ba4a8c39f06b2ec2bda9ae69 CMakeFiles/djvulibre
+9508e36cdb5836a9db66d9509b443a6c CMakeFiles/djvulibre-complete
+11f1657f0887ab6823c9ac83cb6f9abc djvulibre-prefix/src/djvulibre-stamp/djvulibre-build
+d86ff088d50c342a1ebe21b831721634 djvulibre-prefix/src/djvulibre-stamp/djvulibre-configure
+dc7332b0ad4ab09ae3347df01d93c08f djvulibre-prefix/src/djvulibre-stamp/djvulibre-download
+ef190dcdd13a280c7d7bde208ccab927 djvulibre-prefix/src/djvulibre-stamp/djvulibre-install
+c80ec3fa591b08ebf28d991d612d6a0b djvulibre-prefix/src/djvulibre-stamp/djvulibre-mkdir
+ba1356b3478644ccf788fd359093c74f djvulibre-prefix/src/djvulibre-stamp/djvulibre-patch
+4baae5b95d65c26876d91f2fbc024fd2 djvulibre-prefix/src/djvulibre-stamp/djvulibre-update

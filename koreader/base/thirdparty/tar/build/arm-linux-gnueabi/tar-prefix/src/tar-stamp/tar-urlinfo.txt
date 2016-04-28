@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://ftp.gnu.org/gnu/tar/tar-1.28.tar.gz'
+tag='MD5=6ea3dbea1f2b0409b234048e021a9fd7'

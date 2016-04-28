@@ -1,0 +1,1 @@
+/root/koreader/base/thirdparty/giflib/build/arm-linux-gnueabi/CMakeFiles/giflib.dir

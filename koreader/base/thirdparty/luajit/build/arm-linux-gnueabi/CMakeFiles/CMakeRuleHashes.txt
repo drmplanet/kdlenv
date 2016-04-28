@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+2bfc5b75e2c3d65aecba6426105e16aa CMakeFiles/luajit
+c8bf1ea74329cc3ebb32367f5108db3b CMakeFiles/luajit-complete
+fbfe8fed252bb3d9d61441a5cc762e56 luajit-prefix/src/luajit-stamp/luajit-build
+89e792deeab76bdf8cef1d28c30b3fec luajit-prefix/src/luajit-stamp/luajit-configure
+49a0121580d579afb554e7b842f9e2e9 luajit-prefix/src/luajit-stamp/luajit-download
+4a52281f7b50bc9b13551df437e6e6ac luajit-prefix/src/luajit-stamp/luajit-install
+9658cc6915f6061e2cb96ae517eee04a luajit-prefix/src/luajit-stamp/luajit-mkdir
+8d062ed4be01faf1b23f51f03db82017 luajit-prefix/src/luajit-stamp/luajit-patch
+bab5102751cce1b7149bddb5643780ab luajit-prefix/src/luajit-stamp/luajit-update

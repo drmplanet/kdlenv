@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+3809502bb0b1670dc37bfc4f4853dfed CMakeFiles/giflib
+79440217229175f429d63ef36702e222 CMakeFiles/giflib-complete
+b3989ef03bcee55bed6ab897e1785e9a giflib-prefix/src/giflib-stamp/giflib-build
+5c6498fefacb1eda5726789cef980296 giflib-prefix/src/giflib-stamp/giflib-configure
+e59beb2d07dfae171b46ef7fd187f0a8 giflib-prefix/src/giflib-stamp/giflib-download
+02baa66eb46cfc1e4a0e270d4f8a0faa giflib-prefix/src/giflib-stamp/giflib-install
+69ed1d5dd3111365efd1fe0e8b152a41 giflib-prefix/src/giflib-stamp/giflib-mkdir
+6761e039539d08202c822691bf77d3ab giflib-prefix/src/giflib-stamp/giflib-patch
+7f12fbf2e0e68bb8f191341d43b9214b giflib-prefix/src/giflib-stamp/giflib-update

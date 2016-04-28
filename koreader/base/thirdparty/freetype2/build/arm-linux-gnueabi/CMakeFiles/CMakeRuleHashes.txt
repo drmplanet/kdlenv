@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+49ed4d3bc222b7534241a8a5f04f4726 CMakeFiles/freetype2
+e954aabcbb886abe1b913141ee083ae0 CMakeFiles/freetype2-complete
+cbfef3ac444fdcb761d876b17f016589 freetype2-prefix/src/freetype2-stamp/freetype2-build
+a7d8cd17d430feef4925a944d17c27b1 freetype2-prefix/src/freetype2-stamp/freetype2-configure
+a6c9f10c53f90806e4bb75525ba55c9d freetype2-prefix/src/freetype2-stamp/freetype2-download
+a65acd594707e3e9dd571ce920666187 freetype2-prefix/src/freetype2-stamp/freetype2-install
+5663ac9003dc4d9db62cde34311e7153 freetype2-prefix/src/freetype2-stamp/freetype2-mkdir
+f3113382748663655d3a7df15ae5a19a freetype2-prefix/src/freetype2-stamp/freetype2-patch
+20a0f4256ca9e9cf2d1fbc4347f5d35e freetype2-prefix/src/freetype2-stamp/freetype2-update

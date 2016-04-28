@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+779ca7a52b316a153139fba2d9d68e95 CMakeFiles/glib
+b9c085152df4151e57161c07e59f2c26 CMakeFiles/glib-complete
+1d6ff5248e919a6932d43444ed3d77c7 glib-prefix/src/glib-stamp/glib-build
+59c488a3b7f80d088e29118ca4c3ea69 glib-prefix/src/glib-stamp/glib-configure
+0fb911c097f310c74144769a986222ae glib-prefix/src/glib-stamp/glib-download
+ffb922eaf263f89dcd5ea49cb80e0e04 glib-prefix/src/glib-stamp/glib-install
+a2e44e2b7cee53151f70308e93767cd4 glib-prefix/src/glib-stamp/glib-mkdir
+19c06ec0eec19c206ac9285401c64ae0 glib-prefix/src/glib-stamp/glib-patch
+6c0cdc5664342f341af6d11cb2cd9f49 glib-prefix/src/glib-stamp/glib-update
