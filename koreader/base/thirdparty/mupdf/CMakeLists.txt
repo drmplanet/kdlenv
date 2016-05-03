@@ -48,7 +48,7 @@ else()
     set(LINK_OPTS "${LINK_OPTS} -Wl,-soname=${MUPDF_SONAME}")
     set(LINK_OPTS "${LINK_OPTS} build/release/libopenjpeg.a build/release/libmujs.a build/release/libjbig2dec.a")
 endif()
-set(SHARED_BUILD_STR "${CC} -shared ${CFLAGS} ${LINK_OPTS} ${AES_LIB} ${ZLIB} ${JPEG_LIB} ${FREETYPE_LIB} -o ${MUPDF_LIB} -lm")
+set(SHARED_BUILD_STR "${CC} -shared ${CFLAGS} ${LINK_OPTS} ${AES_LIB} ${ZLIB} ${JPEG_LIB} ${FREETYPE_LIB} -o ${MUPDF_LIB} -lm -lxdrm_client -Larmlinux/")
 if(${ANDROID})
     set(SHARED_BUILD_STR "${SHARED_BUILD_STR} -llog")
 endif(${ANDROID})
@@ -57,7 +57,9 @@ set(SHARED_BUILD_CMD sh -c "${SHARED_BUILD_STR}")
 set(PATCH_CMD1 sh -c "patch -N -p1 < ${CMAKE_CURRENT_SOURCE_DIR}/external_fonts.patch || true")
 # add support for encryted zips
 set(PATCH_CMD2 sh -c "patch -N -p1 < ${CMAKE_CURRENT_SOURCE_DIR}/encrypted_zip.patch || true")
+set(UPDATE_CMD1 sh -c "cp -af ${CMAKE_CURRENT_SOURCE_DIR}/../../../update_mupdf/build/arm-linux-gnueabi/mupdf-prefix/* ${CMAKE_CURRENT_SOURCE_DIR}/build/arm-linux-gnueabi/mupdf-prefix || true")
 
+set(FINALINSTALL sh -c "cp -af ${CMAKE_CURRENT_SOURCE_DIR}/build/arm-linux-gnueabi/mupdf-prefix/src/mupdf/armlinux/* ${CMAKE_CURRENT_SOURCE_DIR}/../../../base/build/arm-linux-gnueabi/libs/ || true")
 # TODO: ignore shared git submodules built outside of mupdf by ourselves
 ep_get_source_dir(SOURCE_DIR)
 ko_write_gitclone_script(
@@ -72,10 +74,12 @@ ExternalProject_Add(
     ${PROJECT_NAME}
     DOWNLOAD_COMMAND ${CMAKE_COMMAND} -P ${GIT_CLONE_SCRIPT_FILENAME}
     BUILD_IN_SOURCE 1
-    PATCH_COMMAND COMMAND ${PATCH_CMD1} COMMAND ${PATCH_CMD2}
+    #PATCH_COMMAND COMMAND ${PATCH_CMD1} COMMAND ${PATCH_CMD2}
+    #UPDATE_COMMAND COMMAND ${UPDATE_CMD1}
+    PATCH_COMMAND COMMAND ${UPDATE_CMD1}
     # skip configure
     CONFIGURE_COMMAND ""
     BUILD_COMMAND ${BUILD_CMD_GENERATE} COMMAND ${STATIC_BUILD_CMD} COMMAND ${SHARED_BUILD_CMD}
     # skip install
-    INSTALL_COMMAND ""
+    INSTALL_COMMAND COMMAND ${FINALINSTALL}
 )
