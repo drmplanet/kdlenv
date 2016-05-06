@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/luasocket/build/arm-linux-gnueabi/CMakeFiles/luasocket.dir

@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/freetype2/build/arm-linux-gnueabi/CMakeFiles/freetype2.dir

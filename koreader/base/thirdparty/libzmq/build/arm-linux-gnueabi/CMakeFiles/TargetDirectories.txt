@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/CMakeFiles/libzmq.dir

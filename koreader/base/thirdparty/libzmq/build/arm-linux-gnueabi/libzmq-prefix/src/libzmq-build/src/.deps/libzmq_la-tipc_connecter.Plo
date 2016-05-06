@@ -1,8 +1,0 @@
-libzmq_la-tipc_connecter.lo: \
- /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/tipc_connecter.cpp \
- /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/tipc_connecter.hpp \
- platform.hpp
-
-/root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/tipc_connecter.hpp:
-
-platform.hpp:

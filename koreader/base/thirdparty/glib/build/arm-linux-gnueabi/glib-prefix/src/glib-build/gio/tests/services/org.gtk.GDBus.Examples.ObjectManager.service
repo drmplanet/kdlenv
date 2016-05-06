@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.gtk.GDBus.Examples.ObjectManager
-Exec=/root/koreader/base/thirdparty/glib/build/arm-linux-gnueabi/glib-prefix/src/glib-build/gio/tests/gdbus-example-objectmanager-server

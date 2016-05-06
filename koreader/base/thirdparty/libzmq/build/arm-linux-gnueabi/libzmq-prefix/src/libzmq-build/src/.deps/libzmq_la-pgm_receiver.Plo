@@ -1,5 +1,0 @@
-libzmq_la-pgm_receiver.lo: \
- /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/pgm_receiver.cpp \
- platform.hpp
-
-platform.hpp:

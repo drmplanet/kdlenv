@@ -1,3 +1,0 @@
-svpaint.lo: svpaint.cpp ../config_auto.h
-
-../config_auto.h:

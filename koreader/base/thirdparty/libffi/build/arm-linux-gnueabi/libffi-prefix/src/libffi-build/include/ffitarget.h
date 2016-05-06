@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/libffi/build/arm-linux-gnueabi/libffi-prefix/src/libffi/src/arm/ffitarget.h

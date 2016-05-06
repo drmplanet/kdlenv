@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/lodepng/build/arm-linux-gnueabi/CMakeFiles/lodepng.dir

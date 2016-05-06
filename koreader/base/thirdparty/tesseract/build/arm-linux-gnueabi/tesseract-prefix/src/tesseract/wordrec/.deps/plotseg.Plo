@@ -1,3 +1,0 @@
-plotseg.lo: plotseg.cpp ../config_auto.h
-
-../config_auto.h:

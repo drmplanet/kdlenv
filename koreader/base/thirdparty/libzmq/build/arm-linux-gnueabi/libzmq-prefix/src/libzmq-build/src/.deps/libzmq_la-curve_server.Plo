@@ -1,5 +1,0 @@
-libzmq_la-curve_server.lo: \
- /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/curve_server.cpp \
- platform.hpp
-
-platform.hpp:

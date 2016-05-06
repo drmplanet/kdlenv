@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/popen-noshell/build/arm-linux-gnueabi/CMakeFiles/popen-noshell.dir

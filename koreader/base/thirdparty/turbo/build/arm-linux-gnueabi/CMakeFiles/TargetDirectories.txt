@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/turbo/build/arm-linux-gnueabi/CMakeFiles/turbo.dir

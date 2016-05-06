@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/libffi/build/arm-linux-gnueabi/CMakeFiles/libffi.dir

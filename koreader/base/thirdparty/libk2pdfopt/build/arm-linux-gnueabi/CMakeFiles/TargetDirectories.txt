@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/libk2pdfopt/build/arm-linux-gnueabi/CMakeFiles/libk2pdfopt.dir

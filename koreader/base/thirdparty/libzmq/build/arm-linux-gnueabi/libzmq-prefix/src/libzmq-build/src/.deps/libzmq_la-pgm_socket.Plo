@@ -1,5 +1,0 @@
-libzmq_la-pgm_socket.lo: \
- /root/koreader/base/thirdparty/libzmq/build/arm-linux-gnueabi/libzmq-prefix/src/libzmq/src/pgm_socket.cpp \
- platform.hpp
-
-platform.hpp:

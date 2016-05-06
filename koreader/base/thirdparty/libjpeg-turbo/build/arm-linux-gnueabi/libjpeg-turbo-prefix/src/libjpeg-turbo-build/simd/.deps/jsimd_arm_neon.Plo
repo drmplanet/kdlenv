@@ -1,2 +1,0 @@
-jsimd_arm_neon.lo: \
- /root/koreader/base/thirdparty/libjpeg-turbo/build/arm-linux-gnueabi/libjpeg-turbo-prefix/src/libjpeg-turbo/simd/jsimd_arm_neon.S

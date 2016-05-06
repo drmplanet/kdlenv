@@ -1,3 +1,0 @@
-repository='external project URL'
-module='http://download.sourceforge.net/giflib/giflib-5.1.4.tar.gz'
-tag='MD5=8985c9411fdb2178b89d3348da9a06b0'

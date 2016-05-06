@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/evernote-sdk-lua/build/arm-linux-gnueabi/CMakeFiles/evernote-sdk-lua.dir

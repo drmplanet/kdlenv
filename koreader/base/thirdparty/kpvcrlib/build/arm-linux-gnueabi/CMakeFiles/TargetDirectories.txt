@@ -1,3 +1,0 @@
-/root/koreader/base/thirdparty/kpvcrlib/build/arm-linux-gnueabi/crengine/thirdparty/antiword/CMakeFiles/antiword.dir
-/root/koreader/base/thirdparty/kpvcrlib/build/arm-linux-gnueabi/crengine/thirdparty/chmlib/CMakeFiles/chmlib.dir
-/root/koreader/base/thirdparty/kpvcrlib/build/arm-linux-gnueabi/CMakeFiles/crengine.dir

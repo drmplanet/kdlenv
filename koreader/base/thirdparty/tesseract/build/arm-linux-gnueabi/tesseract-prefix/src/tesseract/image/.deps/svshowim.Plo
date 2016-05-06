@@ -1,3 +1,0 @@
-svshowim.lo: svshowim.cpp ../config_auto.h
-
-../config_auto.h:

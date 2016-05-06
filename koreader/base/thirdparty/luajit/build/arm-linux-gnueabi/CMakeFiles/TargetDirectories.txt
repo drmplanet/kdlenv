@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/luajit/build/arm-linux-gnueabi/CMakeFiles/luajit.dir

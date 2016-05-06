@@ -1,1 +1,0 @@
-/root/koreader/base/thirdparty/libjpeg-turbo/build/arm-linux-gnueabi/CMakeFiles/libjpeg-turbo.dir

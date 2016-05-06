@@ -1,2 +1,0 @@
-set CC_FOR_TARGET "arm-linux-gnueabi-gcc -static-libstdc++"
-set CXX_FOR_TARGET "arm-linux-gnueabi-g++"

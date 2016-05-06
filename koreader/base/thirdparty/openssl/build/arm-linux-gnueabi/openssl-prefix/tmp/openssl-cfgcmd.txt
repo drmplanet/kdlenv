@@ -1,1 +1,0 @@
-cmd='sh;-c; /root/koreader/base/thirdparty/openssl/build/arm-linux-gnueabi/openssl-prefix/src/openssl/Configure linux-generic32 shared no-asm no-idea no-mdc2 no-rc5 enable-ssl2'
